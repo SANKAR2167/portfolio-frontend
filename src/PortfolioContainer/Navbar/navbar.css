@@ -1,0 +1,62 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: #24263b;
+    color: white;
+}
+
+.logo{
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.nav-menu .menu{
+    padding: 0 15px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header .toggle{
+    display: none;
+    background-color: #24263b;
+    color: aliceblue;
+    border: none;
+    font-size: 12px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    align-items: center;
+    border: 3px;
+}
+
+@media screen and (max-width:900px){
+    
+    header .nav-menu{
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        background-color: #eae8e8;
+        flex-direction: column;
+        
+    }
+
+    .nav-menu .menu{
+        padding: 15px;
+        color: #24263b;
+    }
+    
+    header .toggle{
+        display: block;
+    }
+}
