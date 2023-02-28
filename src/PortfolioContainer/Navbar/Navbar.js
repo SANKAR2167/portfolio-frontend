@@ -25,6 +25,6 @@ export default function Navbar() {
         </div>
       }
       <button className='toggle' onClick={handleShow}><MenuIcon /></button>
-    </header>
+    </header> 
   )
 }
