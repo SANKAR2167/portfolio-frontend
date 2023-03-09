@@ -37,7 +37,7 @@ export default function Skill() {
     }]
 
   return (
-    <div className='Skill'>
+    <section className='Skill'>
       <h2 className='skill'>Skills & Tools</h2>
       <p className="skill-text">
         Without sharpen your weapon; standing on the battlefield would not
@@ -46,7 +46,7 @@ export default function Skill() {
       <div className='skill-container'>
         {Skill.map(skl => <SkillData skilldata={skl} />)}
       </div>
-    </div>
+    </section>
   )
 }
 

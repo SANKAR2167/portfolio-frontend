@@ -6,10 +6,9 @@ import './Home.css'
 
 export default function Home() {
   return (
-    <div className='home-container'>
+    <section className='home-container'>
       <Profile />
       <Footer />
-      
-    </div>
+    </section>
   )
 }

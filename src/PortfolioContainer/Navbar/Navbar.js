@@ -18,10 +18,10 @@ export default function Navbar() {
       </div>
       {show &&
         <div className="nav-menu">
-          <Link className='menu' to={'/'}>Home</Link>
-          <Link className='menu' to={'/aboutme'}>About Me</Link>
-          <Link className='menu' to={'/skills'}>Skills</Link>
-          <Link className='menu' to={'/project'}>Project</Link>
+          <Link className='menu' to= 'Home'>Home</Link>
+          <Link className='menu' to= 'AboutMe'>About Me</Link>
+          <Link className='menu' to='Skill'>Skills</Link>
+          <Link className='menu' to='Project'>Project</Link>
         </div>
       }
       <button className='toggle' onClick={handleShow}><MenuIcon /></button>

@@ -4,7 +4,7 @@ import AboutImage from '../../assets/home/profile.jpg'
 
 export default function AboutMe() {
   return (
-    <div className="about">
+    <section className="about">
       <h2 className='about-title'>About Me</h2>
       <div className='about-container'>
         <div className="about-photo">
@@ -12,10 +12,10 @@ export default function AboutMe() {
         </div>
         <div className="about-content">
           <p>
-            Hi I'm Sankar a full stack web developer. I did my bachelor degree in department of Mechanical Engineering from M.Kumarasamy College Of Engineering in Karur. I'm so much interested in coding. Right now I'm a qualified and professional web developer with knowledge of frontend skills and backend skills.
+            Hi I'm Sankar a full stack web developer. I did my bachelor degree in department of Mechanical Engineering from M.Kumarasamy College Of Engineering in Karur. I have 1 year of working experience in Quality Control Department. I'm so much interested in coding, then i joined web development to improve my career. Right now I'm a qualified and professional web developer with knowledge of frontend skills and backend skills.
           </p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
