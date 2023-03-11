@@ -4,7 +4,7 @@ import AboutImage from '../../assets/home/profile.jpg'
 
 export default function AboutMe() {
   return (
-    <section className="about">
+    <section className="about" id='aboutme'>
       <h2 className='about-title'>About Me</h2>
       <div className='about-container'>
         <div className="about-photo">

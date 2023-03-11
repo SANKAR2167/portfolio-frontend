@@ -6,7 +6,7 @@ import './Home.css'
 
 export default function Home() {
   return (
-    <section className='home-container'>
+    <section className='home-container' id='home'>
       <Profile />
       <Footer />
     </section>

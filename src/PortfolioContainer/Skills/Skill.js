@@ -37,7 +37,7 @@ export default function Skill() {
     }]
 
   return (
-    <section className='Skill'>
+    <section className='Skill' id='skills'>
       <h2 className='skill'>Skills & Tools</h2>
       <p className="skill-text">
         Without sharpen your weapon; standing on the battlefield would not

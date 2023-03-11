@@ -1,4 +1,14 @@
 header{
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 50;
+    width: 100%;
+    transition: opacity 0.3s ease-in-out 0s;
+}
+
+.nav{
     display: flex;
     justify-content: space-around;
     align-items: center;

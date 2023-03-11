@@ -1,14 +1,16 @@
 import React from 'react'
 import './Project.css'
+import loginpage from '../../assets/project/loginpage.jpg'
+
 
 export default function Project() {
 
   const ProjectData = [
     {
-      'name': 'Animated Login Page with HTML CSS JS',
-      'image': '',
-      'link': '',
-      'git': ''
+      'name': 'Login Page',
+      'image': loginpage,
+      'link': 'https://sankar-loginpage.netlify.app/',
+      'git': 'https://github.com/SANKAR2167/login-page'
     },
     {
       'name': 'Animated Login Page',
@@ -31,7 +33,7 @@ export default function Project() {
   ]
 
   return (
-    <section>
+    <section id='project'>
       <h2 className='project-title'>Projects</h2>
       <div className='project-container'>
         {ProjectData.map(pjd => <ProjectList projectdata={pjd} />)}
